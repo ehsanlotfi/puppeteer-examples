@@ -1,0 +1,242 @@
+[
+    {
+        "tagName": "P",
+        "text": "Currently, AI is progressing rapidly and deep learning is one of the contributors. Deep learning is a branch of machine learning that constantly changes the world around us.",
+        "translate": "در حال حاضر ، هوش مصنوعی به سرعت پیشرفت می کند و یادگیری عمیق یکی از همکاران است. Deep Learning شاخه ای از یادگیری ماشینی است که به طور مداوم دنیای اطراف ما را تغییر می دهد. "
+    },
+    {
+        "tagName": "P",
+        "text": "From driver-less cars to voice recognition, Deep Learning makes everything possible. It has become a hot topic for industry and science and affects almost all industries related to Machine Learning and artificial intelligence (AI). This is the principal article in deep learning arrangement and will clarify diverse deep learning models in upcoming articles.",
+        "translate": " از ماشین های کم راننده گرفته تا تشخیص صدا ، Deep Learning همه چیز را ممکن می کند. این موضوع به یک موضوع داغ برای صنعت و علم تبدیل شده است و تقریباً بر تمام صنایع مرتبط با آموزش ماشین و هوش مصنوعی (AI) تأثیر می گذارد. این مقاله اصلی در تنظیم یادگیری عمیق است و مدل های مختلف یادگیری عمیق را در مقالات بعدی روشن می کند. "
+    },
+    {
+        "tagName": "H1",
+        "text": "What is Deep learning?",
+        "translate": " یادگیری عمیق چیست؟ "
+    },
+    {
+        "tagName": "FIGURE",
+        "text": "AI vs ML vs Deep Learning",
+        "translate": " AI vs ML vs Deep Learning "
+    },
+    {
+        "tagName": "P",
+        "text": "Deep learning is a sub-field of machine learning dealing with algorithms enlivened by the structure and function of the brain called artificial neural networks. As it were, It copies the working of our minds. Deep learning algorithms are like how the sensory systems organized where every neuron associated one another and passing information. Deep learning is part of a broader family of Machine learning methods based on learning data representations, as opposed to task-specific algorithms. Learning can be supervised, semi-supervised or unsupervised.",
+        "translate": " یادگیری عمیق یک زمینه فرعی از یادگیری ماشین است. برخورد با الگوریتم هایی که توسط ساختار و عملکرد مغز به نام شبکه های عصبی مصنوعی احاطه شده است. به طور کلی ، این کار ذهن ما را کپی می کند. الگوریتم های یادگیری عمیق مانند این است که چگونه سیستم های حسی که در آن هر نورون با یکدیگر ارتباط برقرار می کنند و اطلاعات منتقل می شوند. یادگیری عمیق بخشی از یک خانواده گسترده تر از روش های یادگیری ماشینی است که بر اساس یادگیری بازنمایی داده ها طراحی شده است ، برخلاف الگوریتم های خاص وظیفه. یادگیری می تواند تحت نظارت ، نیمه نظارت یا بدون نظارت باشد. "
+    },
+    {
+        "tagName": "FIGURE",
+        "text": "Deep Neural Networks",
+        "translate": " شبکه های عصبی عمیق "
+    },
+    {
+        "tagName": "P",
+        "text": "Deep learning models work in layers and a typical model at least has three layers. Each layer accepts the information from previous and passes it on to the next one.",
+        "translate": " مدل های یادگیری عمیق در لایه ها کار می کنند و یک مدل معمولی حداقل دارای سه لایه است. هر لایه اطلاعات قبلی را می پذیرد و آن را به قسمت بعدی منتقل می کند. "
+    },
+    {
+        "tagName": "H1",
+        "text": "Why should one know about Deep learning?",
+        "translate": " چرا باید در مورد یادگیری عمیق بدانیم؟ "
+    },
+    {
+        "tagName": "FIGURE",
+        "text": "Deep Learning vs Older Learning Algorithms",
+        "translate": " عمیق یادگیری در مقابل الگوریتم های یادگیری قدیمی تر "
+    },
+    {
+        "tagName": "P",
+        "text": "One of the major reasons for deep learning is the amount of data we handle nowadays. Deep learning models tend to perform well with the amount of data whereas old machine learning models stop improving after a saturation point.",
+        "translate": " یکی از دلایل عمده یادگیری عمیق مقدار است داده هایی که امروزه از آنها استفاده می کنیم. مدل های یادگیری عمیق تمایل به عملکرد خوبی با میزان داده دارند ، در حالی که مدل های یادگیری ماشین قدیمی پس از یک نقطه اشباع متوقف می شوند. "
+    },
+    {
+        "tagName": "P",
+        "text": "Nearly every industry is going to be affected by AI and ML and Deep learning play a big role in it. Regardless of whether you are a health professional or a lawyer, there is a possibility that one day you may be replaced by a highly autonomous robot. The accuracy of deep learning has improved significantly over the years and continues to evolve. Understanding its nuances will help us all.",
+        "translate": " تقریباً هر صنعت تحت تأثیر AI و ML قرار می گیرد و یادگیری عمیق نقش بزرگی در آن بازی می کند. صرف نظر از این که شما یک متخصص بهداشت و درمان هستید یا یک وکیل ، این احتمال وجود دارد که روزی بتوانید یک روبات بسیار مستقل جایگزین شوید. دقت یادگیری عمیق در طول سالها به طور قابل توجهی بهبود یافته است و همچنان تکامل می یابد. دانستن تفاوت های ظریف آن به همه ما کمک می کند. "
+    },
+    {
+        "tagName": "P",
+        "text": "Some of the wide applications of Deep learning are:",
+        "translate": " برخی از کاربردهای گسترده یادگیری عمیق عبارتند از: "
+    },
+    {
+        "tagName": "P",
+        "text": "Self-driving cars: A self-driving car is the ultimate evolutionary goal of developing ADASes — Advanced Driver Assistance Systems, to the point when there’s nobody to assist anymore.",
+        "translate": " اتومبیل های رانندگی: اتومبیل خود رانندگی هدف اصلی تکاملی توسعه ADASes است - سیستم های پیشرفته کمک به رانندگان. "
+    },
+    {
+        "tagName": "P",
+        "text": "Visual tasks: Which include, among others, the recognition of lanes, the recognition of pedestrians and the recognition of traffic signals, are solved through in-depth learning.\nThe importance of deep learning for autonomous driving systems can be illustrated by the fact that Nvidia maintains long-term relationships with car manufacturers and works on integrated and real-time operating systems developed for that purpose.",
+        "translate": " هنگامی که دیگر کسی برای کمک به آن وجود ندارد. "
+    },
+    {
+        "tagName": "P",
+        "text": "Humanoids: In the same way, deep learning simplifies the interaction between robots and human beings day by day. We already have personal agents like Alexa and Siri who listen to our questions and respond intelligently.",
+        "translate": " وظایف تصویری: از جمله ، شناخت خطوط ، شناخت عابر پیاده و شناخت سیگنالهای راهنمایی و رانندگی ، از طریق یادگیری عمیق حل می شود.\nاهمیت یادگیری عمیق برای سیستمهای رانندگی مستقل را می توان با این واقعیت نشان داد که انویدیا روابط طولانی مدت را با تولید کنندگان خودرو حفظ می کند و بر روی سیستم عامل های یکپارچه و در زمان واقعی کار می کند که برای آن منظور توسعه یافته اند. "
+    },
+    {
+        "tagName": "P",
+        "text": "NLP and image processing: The great advances in such fields have been possible thanks to deep learning. In view of the growth rate of robotics and deep learning, autonomous robots are not far away. A good example is Google Duplex, a human-like virtual assistant by Google.",
+        "translate": " Humanoids: به همین ترتیب ، یادگیری عمیق تعامل بین روبات ها و انسان ها روز به روز ساده تر می شود. ما در حال حاضر عوامل شخصی مانند الکسا و سیری داریم که به سوالات ما گوش می دهند و هوشمندانه جواب می دهند. "
+    },
+    {
+        "tagName": "P",
+        "text": "Medical care: the adoption of deep learning in health care is increasing and solving a variety of problems for patients, hospitals and the entire health care industry.",
+        "translate": " NLP و پردازش تصویر: پیشرفت های بزرگ در چنین زمینه هایی به لطف یادگیری عمیق امکان پذیر است. با توجه به سرعت رشد روباتیک و یادگیری عمیق ، ربات های خودمختار فاصله چندانی ندارند. مثال خوب Google Duplex ، یک دستیار مجازی شبیه به انسان توسط Google است. "
+    },
+    {
+        "tagName": "P",
+        "text": "Research has shown that deep neural networks can be trained to produce radiological results with high reliability by training archival data from millions of patient scans collected by health systems. These advances will soon change the health and care scenario by replacing doctors with AI-based expert systems and autonomous robotic surgeons.",
+        "translate": " مراقبت های پزشکی: اتخاذ یادگیری عمیق در مراقبت های بهداشتی در حال افزایش است و حل انواع مختلفی از مشکلات برای بیماران ، بیمارستان ها و کل صنعت مراقبت های بهداشتی است. "
+    },
+    {
+        "tagName": "P",
+        "text": "This should be enough to give you an idea of the vast applications of deep learning. Unless you’re planning to head in the woods, sooner or later you’ll get to interact with DL in some manner. Now let’s have a look at how it works!",
+        "translate": " تحقیقات نشان داده است که شبکه های عصبی عمیق می توانند با آموزش داده های بایگانی شده توسط میلیون ها اسکن بیمار که توسط سیستم های بهداشتی جمع آوری شده اند ، نتایج رادیولوژیکی با قابلیت اطمینان بالایی را تولید کنند. این پیشرفت ها به زودی با جایگزینی پزشکان با سیستم های خبره مبتنی بر هوش مصنوعی و جراحان روباتیک خودمختار ، سناریوی بهداشت و مراقبت را تغییر می دهند. مگر اینکه قصد سر زدن به جنگل را داشته باشید ، دیر یا زود می توانید با DL به نوعی در تعامل باشید. حال بیایید نگاهی به نحوه عملکرد آن بیندازیم! "
+    },
+    {
+        "tagName": "H1",
+        "text": "Implementation of Deep learning",
+        "translate": " اجرای یادگیری عمیق "
+    },
+    {
+        "tagName": "P",
+        "text": "Given that Deep learning is implemented by large Artificial Neural Networks (or simply Neural Networks or NN), let’s find out more about them.",
+        "translate": " با توجه به اینکه یادگیری عمیق توسط شبکه های عصبی مصنوعی بزرگ (یا شبکه های عصبی یا NN) پیاده سازی می شود ، بیایید اطلاعات بیشتری در مورد آنها کسب کنیم. "
+    },
+    {
+        "tagName": "H2",
+        "text": "What’s an Artificial Neural Network",
+        "translate": " یک شبکه عصبی مصنوعی چیست "
+    },
+    {
+        "tagName": "P",
+        "text": "Artificial Neural Network is a network of interconnected artificial neurons (or nodes) where each neuron represents an information processing unit.",
+        "translate": " شبکه عصبی مصنوعی شبکه ای از نورون های مصنوعی بهم پیوسته (یا گره ها) است که در آن هر نورون یک واحد پردازش اطلاعات را نشان می دهد. "
+    },
+    {
+        "tagName": "P",
+        "text": "These interconnected nodes pass information to each other mimicking the human brain.",
+        "translate": " این گره های بهم پیوسته اطلاعات را به یکدیگر منتقل می کنند که مغز انسان را تقلید می کند. "
+    },
+    {
+        "tagName": "P",
+        "text": "The nodes interact with each other and share information. Each node takes input and performs some operation on it before passing it forward.",
+        "translate": " گره ها با یکدیگر تعامل دارند و اطلاعات را به اشتراک می گذارند. هر گره ورودی را می گیرد و قبل از انتقال آن ، عملیات را بر روی آن انجام می دهد. "
+    },
+    {
+        "tagName": "P",
+        "text": "The operation is performed by what is called an Activation function (non-linearity). It converts the input into an output which can be then used as input for other nodes.",
+        "translate": " این عمل توسط آنچه تابع فعال سازی نامیده می شود (غیرخطی) انجام می شود. ورودی را به خروجی تبدیل می کند که می تواند بعنوان ورودی برای گره های دیگر استفاده شود. "
+    },
+    {
+        "tagName": "FIGURE",
+        "text": "ANN",
+        "translate": " ANN "
+    },
+    {
+        "tagName": "P",
+        "text": "The links between nodes are mostly weighted. These weights are adjusted based on the performance of the network. If the performance (or accuracy) is high, then weights are not adjusted, but if the performance is low, then weights are adjusted through specific calculation.",
+        "translate": " پیوندهای بین گره ها بیشتر وزنه برداری می شوند. این وزن ها بر اساس عملکرد شبکه تنظیم می شوند. اگر عملکرد (یا دقت) زیاد باشد ، وزن ها تنظیم نمی شوند ، اما اگر عملکرد کم باشد ، وزن ها از طریق محاسبه خاص تنظیم می شوند. "
+    },
+    {
+        "tagName": "P",
+        "text": "The leftmost layer of neurons is called the input layer and similarly, the rightmost layer is called the output layer. All the other layers in between are called hidden layers. In a nutshell, an Artificial neuron takes input from other nodes and applies the activation function to the weighted sum of input (Transfer function) and then passes the output. A threshold (called Bias) is added to the weighted sum to avoid passing no (zero) output.",
+        "translate": " به چپ ترین لایه نورون لایه ورودی گفته می شود و به همین ترتیب ، راست ترین لایه. لایه خروجی نامیده می شود. به همه لایه های دیگر بین لایه های پنهان گفته می شود. به طور خلاصه ، یک نورون مصنوعی از گره های دیگر ورودی می گیرد و عملکرد فعال سازی را بر مبنای وزنی از ورودی (عملکرد انتقال) اعمال می کند و سپس خروجی را منتقل می کند. یک آستانه (به اصطلاح Bias) به مبلغ وزنی اضافه شده است تا از خروج هیچ (صفر) خارج نشود. "
+    },
+    {
+        "tagName": "FIGURE",
+        "text": "A Neuron",
+        "translate": " A Neuron "
+    },
+    {
+        "tagName": "P",
+        "text": "For knowing more about Neural Networks, check NEURAL NETWORKS by Christos Stergiou and Dimitrios Siganos.",
+        "translate": " برای کسب اطلاعات بیشتر در مورد شبکه های عصبی ، شبکه های NEURAL توسط کریستوس استرجیو و دیمیتریوس سیگانوس را بررسی کنید. "
+    },
+    {
+        "tagName": "H2",
+        "text": "How are Neural Networks used for Deep learning",
+        "translate": " چگونه شبکه های عصبی برای یادگیری عمیق استفاده می شوند "
+    },
+    {
+        "tagName": "P",
+        "text": "For Deep learning, several Neural Network layers are connected in feedforward or feedback style to pass information to each other.",
+        "translate": " برای یادگیری عمیق ، چندین لایه شبکه عصبی به شیوه تغذیه یا بازخورد برای انتقال اطلاعات به یکدیگر متصل هستند. "
+    },
+    {
+        "tagName": "P",
+        "text": "Feedforward: This is the simplest type of ANN. Here, the connections do not form a cycle and hence has no loops. The input is directly fed to output (in a single direction ) through a series of weights. They are extensively used in pattern recognition. This type of organization is referred to as bottom-up or top-down.",
+        "translate": " Feedforward: این ساده ترین نوع ANN است. در اینجا اتصالات چرخه ای تشکیل نمی دهند و از این رو هیچ حلقه ای ندارند. ورودی مستقیماً از طریق یک سری وزنها به خروجی (در یک جهت واحد) تغذیه می شود. آنها بطور گسترده در تشخیص الگوی مورد استفاده قرار می گیرند. به این نوع سازمان از پایین به بالا یا از بالا به پایین گفته می شود. "
+    },
+    {
+        "tagName": "FIGURE",
+        "text": "Feed Forward",
+        "translate": " Feed Forward "
+    },
+    {
+        "tagName": "P",
+        "text": "Feedback (or recurrent): The connections in the feedback network can move in both directions. The output derived from the network is fed back into the network to improve performance (loops).",
+        "translate": " بازخورد (یا مکرر): اتصالات در شبکه بازخورد می توانند از هر دو جهت حرکت کنند. خروجی حاصل از شبکه برای بهبود عملکرد (حلقه ها) به شبکه مجددا تغذیه می شود. "
+    },
+    {
+        "tagName": "P",
+        "text": "These networks can become very complicated but are comparatively more powerful than feedforward. Feedback networks are dynamic and are extensively used for a lot of problems.",
+        "translate": " این شبکه ها می توانند بسیار پیچیده شوند اما از نظر قدرت نسبتاً قدرتمندتر هستند. شبکه های بازخورد پویا هستند و به طور گسترده برای بسیاری از مشکلات مورد استفاده قرار می گیرند. "
+    },
+    {
+        "tagName": "P",
+        "text": "Now let’s discuss some specific types of ANN extensively used for Deep Learning. All these types will be discussed in detail separately in upcoming articles.",
+        "translate": " حالا بیایید در مورد انواع خاصی از ANN که بطور گسترده برای Deep Learning استفاده می شود بحث کنیم. در مورد همه این انواع به طور جداگانه در مقالات بعدی بحث خواهد شد. "
+    },
+    {
+        "tagName": "P",
+        "text": "1). Multilayer Perceptrons: These are the most basic Neural Networks with feed-forward networks. They generally use non-linear activation functions (like Tang or Relu) and compute the losses through Mean Square Error (MSE) or Logloss. The loss is backpropagated to adjust the weights and make the model more accurate. They are generally used as a part of a bigger deep learning network.",
+        "translate": " 1). چند لایه Perceptrons: اینها اساسی ترین شبکه های عصبی با شبکه های بازخورد هستند. آنها معمولاً از توابع فعال سازی غیر خطی (مانند تانگ یا Relu) استفاده می کنند و تلفات را از طریق خطای میانگین مربع (MSE) یا Logloss محاسبه می کنند. از دست دادن برای تنظیم وزنها و دقیق تر بودن مدل ، از بین می رود. آنها معمولاً به عنوان بخشی از یک شبکه یادگیری عمیق بزرگتر مورد استفاده قرار می گیرند. "
+    },
+    {
+        "tagName": "FIGURE",
+        "text": "Artificial Neural Network",
+        "translate": " شبکه عصبی مصنوعی "
+    },
+    {
+        "tagName": "P",
+        "text": "2). Convoluted Neural Network: Convoluted Neural Networks (ConvNet or CNN) are similar to ordinary Neural Networks but their architecture is specifically designed for images as input. In particular, unlike a regular Neural Network, the layers of a ConvNet have neurons arranged in 3 dimensions: width, height, depth.",
+        "translate": " 2). شبکه عصبی Convoluted: شبکه های عصبی Convoluted (ConvNet یا CNN) مشابه شبکه های عصبی معمولی هستند اما معماری آنها بطور خاص برای تصاویر به عنوان ورودی طراحی شده است. به طور خاص ، برخلاف یک شبکه عصبی معمولی ، لایه های یک ConvNet دارای نورون هایی هستند که در 3 بعد عرض ، ارتفاع ، عمق مرتب شده اند. "
+    },
+    {
+        "tagName": "FIGURE",
+        "text": "CNN",
+        "translate": " CNN "
+    },
+    {
+        "tagName": "P",
+        "text": "They are particularly suitable for spatial data, object recognition and image analysis using multidimensional neurons structures. One of the main reasons for the popularity of deep learning lately is due to Convolutional Neural Networks. Some of the common usages of Convoluted Neural Networks are self-driving cars, drones, computer vision, and text analytics.",
+        "translate": " آنها به ویژه برای داده های مکانی ، شناخت شی و تجزیه و تحلیل تصویر با استفاده از نورون های چند بعدی مناسب هستند سازه های. یکی از دلایل اصلی محبوبیت یادگیری عمیق اخیراً ناشی از شبکه های عصبی Convolutional است. برخی از کاربردهای رایج شبکه های عصبی Convoluted اتومبیل های رانندگی ، هواپیماهای بدون سرنشین ، دید رایانه ای و تجزیه و تحلیل متن است. "
+    },
+    {
+        "tagName": "P",
+        "text": "3). Recurrent Neural Networks: RNNs are also a feedforward network, however with recurrent memory loops that take the input from the previous and/or same layers (backpropagation). Here connections form a directed graph along a graph. This gives them a unique capability to model along the time dimension and arbitrary sequence of events and inputs.",
+        "translate": " 3). شبکه های عصبی مکرر: RNN ها همچنین یک شبکه تغذیه کننده هستند ، اما با حلقه های حافظه مکرر که ورودی را از لایه های قبلی و یا همان لایه ها (backpropagation) می گیرند. در اینجا اتصالات یک نمودار مستقیم به همراه یک نمودار را تشکیل می دهند. این به آنها توانایی منحصر به فردی برای مدل سازی در طول بعد و دنباله دلخواه از وقایع و ورودی ها می دهد. "
+    },
+    {
+        "tagName": "FIGURE",
+        "text": "RNN",
+        "translate": " RNN "
+    },
+    {
+        "tagName": "P",
+        "text": "In simpler terms, for any given instant, the network maintains a memory up till that moment and therefore can predict the next action. The most common type of RNNs are Long Short Term Memory (LSTM) network. RNNs are used for the next word prediction and grammar learning.",
+        "translate": " به عبارت ساده تر ، برای هر لحظه مشخص ، شبکه حافظه را تا آن لحظه حفظ می کند و بنابراین می تواند پیش بینی کند اقدام بعدی متداول ترین نوع RNN ها ، شبکه حافظه بلند مدت (LSTM) است. RNN برای پیش بینی کلمه بعدی و یادگیری گرامر استفاده می شود. "
+    },
+    {
+        "tagName": "P",
+        "text": "This post aimed at providing a brief introduction to the massive field of Deep learning. I have skipped mathematical details of all the concepts, which will we covered in the separated and detailed stories of all the above-mentioned concepts.",
+        "translate": " این مقاله با هدف ارائه مقدمه ای مختصر در زمینه عظیم یادگیری Deep. من جزئیات ریاضیات را در مورد همه مفاهیم رد کرده ام ، که در داستان های جدا از هم و مفصل همه مفاهیم فوق الذکر را توضیح خواهیم داد. "
+    },
+    {
+        "tagName": "P",
+        "text": "You can read next chapter of Deep Learning Series: Introduction to Neural Networks and their Key elements from the link.",
+        "translate": " می توانید فصل بعدی سریال Deep Learning: Introduction to شبکه های عصبی و عناصر اصلی آنها را از اینجا بخوانید. ارتباط."
+    }
+]

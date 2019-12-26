@@ -1,4 +1,5 @@
 const puppeteer = require('puppeteer-core');
+const fs = require('fs');
 
 const url = "https://medium.com/towards-artificial-intelligence/deep-learning-series-chapter-1-introduction-to-deep-learning-d790feb974e2"
 
@@ -15,23 +16,15 @@ const proxies = [
 const randProxy = () =>
   proxies[Math.floor(Math.random() * (proxies.length - 1))];
 
-const autoScroll = page =>
-  page.evaluate(
-    async () =>
-      await new Promise((resolve, reject) => {
-        let totalHeight = 0;
-        let distance = 100;
-        let timer = setInterval(() => {
-          let scrollHeight = document.body.scrollHeight;
-          window.scrollBy(0, distance);
-          totalHeight += distance;
-          if (totalHeight >= scrollHeight) {
-            clearInterval(timer);
-            resolve();
-          }
-        }, 300);
+  const writeFile = (path, data, opts = 'utf8') => {
+    return new Promise((resolve, reject) => {
+      fs.writeFile(path, data, opts, (err) => {
+        if (err) reject(err)
+        else resolve()
       })
-  );
+    })
+  }
+  
 
 (async () => {
   const browser = await puppeteer.launch({
@@ -58,5 +51,31 @@ const autoScroll = page =>
       return doms.map(f => ({tagName: f.tagName, text: f.innerText}));
     });
 
+    const CleanText = contentList.map(f=>f.text).join("***");
+   
+    await writeFile("temp.txt", CleanText);
+
+    await page.goto('https://translate.google.com/#view=home&op=docs&sl=en&tl=fa');
+
+    const input = await page.$('#tlid-file-input')
+
+
+    await input.uploadFile("temp.txt")
+    
+     await Promise.all([
+        page.click('.tlid-translate-doc-button.button'),
+        page.waitForNavigation({ waitUntil: 'networkidle0' })
+      ]);
+
+      const element = await page.$("pre");
+      let text = await page.evaluate(element => element.textContent, element);
+
+      text = text.replace(/\* \*/gm, '**')
+
+      text.split("***").forEach((text, i) => {
+        contentList[i]['translate'] = text;
+      });
+
+      await writeFile("temp.json", JSON.stringify(contentList, null, 4));
   await browser.close();
 })();
