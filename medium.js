@@ -29,10 +29,11 @@ const randProxy = () =>
 (async () => {
   const browser = await puppeteer.launch({
     args: [`--proxy-server=http=${randProxy}`, "--incognito"],
-    headless: false,
+    headless: true,
     executablePath: 'C:/Users/e.lotfi/AppData/Local/Chromium/Application/chrome.exe'
   });
   const page = await browser.newPage();
+  await page.setDefaultNavigationTimeout(0); 
 
   await page.goto(url, { waitUntil: "networkidle2" });
 
@@ -48,8 +49,26 @@ const randProxy = () =>
 
     let contentList = await page.evaluate(() => {
       const doms = [...document.querySelectorAll("section > div.n.p:last-child > div > *")];
-      return doms.map(f => ({tagName: f.tagName, text: f.innerText}));
+      return doms.map(f => {
+        if(f.tagName.toUpperCase() === "FIGURE"){
+          elements = [...f.querySelectorAll('img')];
+          const url = elements[elements.length - 1].getAttribute('src');
+          if(url){
+            return {tagName: f.tagName, text: f.innerText, url: url}
+          } else {
+            return {tagName: f.tagName, text: f.innerText, url: elements[0].getAttribute('src')}
+          }
+        } else {
+          return {tagName: f.tagName, text: f.innerText}
+        }
+      });
     });
+
+    contentList.push({tagName: 'title', text: title})
+    if(excerpt){
+      contentList.push({tagName: 'excerpt', text: excerpt})
+    }
+    
 
     const CleanText = contentList.map(f=>f.text).join("***");
    

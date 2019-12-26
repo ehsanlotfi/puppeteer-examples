@@ -17,6 +17,7 @@
     {
         "tagName": "FIGURE",
         "text": "AI vs ML vs Deep Learning",
+        "url": "https://miro.medium.com/proxy/1*JVbomzzzOuV7rhU3ErGBrw.jpeg",
         "translate": " AI vs ML vs Deep Learning "
     },
     {
@@ -27,6 +28,7 @@
     {
         "tagName": "FIGURE",
         "text": "Deep Neural Networks",
+        "url": "https://miro.medium.com/max/60/0*BiZWLawqzJKGYbCT?q=20",
         "translate": " شبکه های عصبی عمیق "
     },
     {
@@ -42,6 +44,7 @@
     {
         "tagName": "FIGURE",
         "text": "Deep Learning vs Older Learning Algorithms",
+        "url": "https://miro.medium.com/max/60/0*9P9ZE0M4HidcOMik.png?q=20",
         "translate": " عمیق یادگیری در مقابل الگوریتم های یادگیری قدیمی تر "
     },
     {
@@ -132,6 +135,7 @@
     {
         "tagName": "FIGURE",
         "text": "ANN",
+        "url": "https://miro.medium.com/proxy/1*BQ0SxdqC9Pl_3ZQtd3e45A.png",
         "translate": " ANN "
     },
     {
@@ -147,6 +151,7 @@
     {
         "tagName": "FIGURE",
         "text": "A Neuron",
+        "url": "https://miro.medium.com/proxy/1*g1MLj3pjVEkCa8rOrv--4w.png",
         "translate": " A Neuron "
     },
     {
@@ -172,6 +177,7 @@
     {
         "tagName": "FIGURE",
         "text": "Feed Forward",
+        "url": "https://miro.medium.com/proxy/0*z-JrlafoPM51BEsW.png",
         "translate": " Feed Forward "
     },
     {
@@ -197,6 +203,7 @@
     {
         "tagName": "FIGURE",
         "text": "Artificial Neural Network",
+        "url": "https://miro.medium.com/max/60/0*GR3kSM5vjYTCEbBk.png?q=20",
         "translate": " شبکه عصبی مصنوعی "
     },
     {
@@ -207,6 +214,7 @@
     {
         "tagName": "FIGURE",
         "text": "CNN",
+        "url": "https://miro.medium.com/max/60/0*Jae_JNCnA7qxsfYx?q=20",
         "translate": " CNN "
     },
     {
@@ -222,6 +230,7 @@
     {
         "tagName": "FIGURE",
         "text": "RNN",
+        "url": "https://miro.medium.com/proxy/1*-S0iGXVcbWdOElfVyTX4_Q.png",
         "translate": " RNN "
     },
     {
@@ -232,11 +241,21 @@
     {
         "tagName": "P",
         "text": "This post aimed at providing a brief introduction to the massive field of Deep learning. I have skipped mathematical details of all the concepts, which will we covered in the separated and detailed stories of all the above-mentioned concepts.",
-        "translate": " این مقاله با هدف ارائه مقدمه ای مختصر در زمینه عظیم یادگیری Deep. من جزئیات ریاضیات را در مورد همه مفاهیم رد کرده ام ، که در داستان های جدا از هم و مفصل همه مفاهیم فوق الذکر را توضیح خواهیم داد. "
+        "translate": " این مقاله با هدف ارائه مقدمه ای مختصر در زمینه عظیم یادگیری Deep. من جزئیات ریاضیات را در مورد کلیه مفاهیم رد کرده ام ، که در داستان های جداگانه و مفصل همه مفاهیم فوق الذکر را توضیح خواهیم داد. "
     },
     {
         "tagName": "P",
         "text": "You can read next chapter of Deep Learning Series: Introduction to Neural Networks and their Key elements from the link.",
-        "translate": " می توانید فصل بعدی سریال Deep Learning: Introduction to شبکه های عصبی و عناصر اصلی آنها را از اینجا بخوانید. ارتباط."
+        "translate": " می توانید فصل بعدی سریال Deep Learning: Introduction to شبکه های عصبی و عناصر اصلی آنها را از اینجا بخوانید. پیوند. "
+    },
+    {
+        "tagName": "title",
+        "text": "Introduction to Deep Learning",
+        "translate": " مقدمه ای بر یادگیری عمیق "
+    },
+    {
+        "tagName": "excerpt",
+        "text": "DEEP LEARNING SERIES, CHAPTER 1 | TOWARDS AI",
+        "translate": " سریال های یادگیری عمیق ، فصل 1 | به سمت AI"
     }
 ]
