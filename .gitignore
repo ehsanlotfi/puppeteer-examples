@@ -107,6 +107,7 @@ public/
 .history
 
 package-lock.json
-
+temp.json
+temp.txt
 # End of https://www.gitignore.io/api/node,visualstudiocode
 
