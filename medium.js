@@ -52,7 +52,7 @@ const randProxy = () =>
       return doms.map(f => {
         if(f.tagName.toUpperCase() === "FIGURE"){
           elements = [...f.querySelectorAll('img')];
-          const url = elements[elements.length - 1].getAttribute('src');
+          const url = elements[1] && elements[1].getAttribute('src');
           if(url){
             return {tagName: f.tagName, text: f.innerText, url: url}
           } else {
@@ -68,6 +68,8 @@ const randProxy = () =>
     if(excerpt){
       contentList.push({tagName: 'excerpt', text: excerpt})
     }
+
+    
     
 
     const CleanText = contentList.map(f=>f.text).join("***");
@@ -95,6 +97,16 @@ const randProxy = () =>
         contentList[i]['translate'] = text;
       });
 
-      await writeFile("temp.json", JSON.stringify(contentList, null, 4));
+      const content = contentList.filter(f => f.tagName !== 'title' && f.tagName !== 'excerpt' ).map(f => {
+        if(f.tagName.toUpperCase() === "FIGURE"){
+          return `<img src="${f.url}"/>`
+        } else {
+          return `<${f.tagName.toLowerCase()}>${f.translate}</${f.tagName.toLowerCase()}>`;
+        };
+      })
+
+      await writeFile("temp.txt", content);
+
+      
   await browser.close();
 })();
