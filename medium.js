@@ -52,12 +52,16 @@ const randProxy = () =>
       return doms.map(f => {
         if(f.tagName.toUpperCase() === "FIGURE"){
           elements = [...f.querySelectorAll('img')];
-          const url = elements[1] && elements[1].getAttribute('src');
-          if(url){
-            return {tagName: f.tagName, text: f.innerText, url: url}
-          } else {
-            return {tagName: f.tagName, text: f.innerText, url: elements[0].getAttribute('src')}
-          }
+          
+          const imageProxcis = elements
+            .filter(f => f.offsetWidth > 250)
+          
+            if(imageProxcis.length){
+              const hash = imageProxcis[0].src.split("/").slice(-1)[0];
+              return {tagName: f.tagName, text: f.innerText, url: `https://miro.medium.com/proxy/${hash}`}
+            } else {
+              return {tagName: f.tagName, text: f.innerText}
+            } 
         } else {
           return {tagName: f.tagName, text: f.innerText}
         }
@@ -96,16 +100,16 @@ const randProxy = () =>
       text.split("***").forEach((text, i) => {
         contentList[i]['translate'] = text;
       });
-
-      const content = contentList.filter(f => f.tagName !== 'title' && f.tagName !== 'excerpt' ).map(f => {
+      let content = '';
+      contentList.filter(f => f.tagName !== 'title' && f.tagName !== 'excerpt' ).forEach(f => {
         if(f.tagName.toUpperCase() === "FIGURE"){
-          return `<img src="${f.url}"/>`
+          content += `<img src="${f.url}"/>`;
         } else {
-          return `<${f.tagName.toLowerCase()}>${f.translate}</${f.tagName.toLowerCase()}>`;
+          content += `<${f.tagName.toLowerCase()}>${f.translate}</${f.tagName.toLowerCase()}>`;
         };
       })
 
-      await writeFile("temp.txt", content);
+      await writeFile("temp.html", content);
 
       
   await browser.close();
